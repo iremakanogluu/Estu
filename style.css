@@ -1,0 +1,163 @@
+body {
+    margin :0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  aside,article{
+    margin:12px;
+  }
+
+  /*Table Design  */
+  table{
+    border-collapse:collapse;
+    margin: 20px;
+    width: 900px;
+  
+  }
+
+  table caption{
+    text-transform: uppercase;
+    font-size: large;
+    color:rgb(154, 154, 154);
+  }
+  th{
+    background-color: rgb(154, 154, 154);
+    color: white;
+
+  }
+  th,td{
+    border: 1px solid gray ;
+    text-align: center;
+    padding:6px;
+  }
+  table a:link{
+    color: rgb(94, 98, 180);
+  }
+
+  .header{
+      padding-top: 0;
+      font-family:Georgia, serif;
+      font-weight: 600px;
+  }
+  .navBar {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8d270d;
+  }
+  
+  .navBar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navBar a:hover {
+    background-color: #b2b2b2;
+    color: black;
+  }
+
+  .navbar a:active{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+
+  .navBar .active_page{
+    font-weight: bold;
+    color:black;
+    background-color: #b2b2b2;
+  }
+
+  .home_image img:hover{
+    height: 300px;
+    width:500px;
+  }
+
+  iframe{
+    margin:19px;
+    padding: 10px;
+  }
+
+  caption{
+    font-weight: bold;
+  }
+
+  footer{
+    color:#f2f2f2;
+    background-color: #8d270d;
+    bottom: 0;
+    padding: 1px;
+    width: 99.8%;
+  }
+
+  form{
+    border: 3px solid #8d270d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    margin-top: 150px;
+    width:400px;
+  }
+  #login:hover{
+    opacity: 0.5;
+  }
+
+
+  #login{
+    background-color: #8d270d;
+    color:#f2f2f2;
+    height: 30px;
+    width: 200px;
+  }
+
+  /*image (university page) */
+  
+  #img:hover{
+    opacity: 0.2;
+  }
+
+  /*image (CampusLife page) */
+  .campusPhoto{
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .campusPhoto li{
+    float:left;
+    margin-right:20px;
+  }
+  
+
+
+  /*image-graph (research page) */
+  .graphics, .graphics2{
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .graphics2{
+    text-align: center;
+  }
+  .graphics li{
+    float:left;
+    margin-right:20px;
+  }
+  .graphics li img{
+    border:2px solid #000;
+  }
+  .graphics li img:hover {
+    width:300px;
+  }
+  .graphics2 li img:hover{
+    width: 1200px;
+  }
+
+  
+
+ 
+  
+  

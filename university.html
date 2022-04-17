@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="University Web Page">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="https://yt3.ggpht.com/ytc/AKedOLTpazQqy4fjEvxHpQgfG2lYDFmTvO9a7wvj5Dvk=s900-c-k-c0x00ffffff-no-rj">
+        <title>University</title>
+        <style>
+            
+            
+            #check{
+                display: none;
+            }
+            .content{
+                display: none;
+                transition: 0.5s linear;
+            }
+            label{
+                display: inline-block;
+                text-decoration:underline;
+                color: #8d270d;
+                cursor:pointer;
+            }
+            #check:checked ~ .content{
+                display: block;
+
+            }
+            #check:checked ~ label{
+                visibility: hidden;
+            }
+            #check:checked ~ label:after{
+                content: 'Show Less';
+                display: block;
+                visibility: visible;
+            }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <img src="https://yt3.ggpht.com/ytc/AKedOLTpazQqy4fjEvxHpQgfG2lYDFmTvO9a7wvj5Dvk=s900-c-k-c0x00ffffff-no-rj" alt="ESTU Logo" width="65">
+            <span class="header" style="font-size: 45px;">Eskişehir Technical University</span>
+        </header>
+
+        <nav>
+            <div class="navBar">
+                <a href="index.html">Home</a>
+                <a href="university.html" class="active_page">University</a>
+                <a href="academics.html">Academics</a>
+                <a href="students.html">Students</a>
+                <a href="research.html">Research</a>
+                <a href="campuslife.html">Campus Life</a>
+                
+              </div>
+
+              <span id="img">
+                  <img src="https://img-s1.onedio.com/id-5d1ccb8e6e431e5c54ee294f/rev-0/raw/s-51c61451bee7509f5860d9dc2eecbddc1cea63aa.jpg"
+                  alt="Eskişehir Technical University" width="375" >
+              </span>
+              
+
+              <article>
+                  <div>
+                      <h3>About Us</h3>
+                      <p>Eskişehir Technical University is located in the center of Eskişehir, which is a city of science, culture and youth.
+                           It consists of 5 Faculties, 2 Vocational Schools, 3 Institutes and 4 Research and Application Centers in total.</p>
+                           <div class="container">
+                               <input type="checkbox" id="check">
+                               <p>Eskişehir Technical University works to prepare its students for the future as the most equipped and competitive individuals
+                                in creative and dynamic educational environments, with its competent teaching staff, each of whom follows the developments in their field and shares all their time 
+                                with their students, in its units with a strong infrastructure, where it carries out education and research activities.</p>
+                               <div class="content">
+                                   <p>The operation of the international Hasan Polatkan Airport, located in the 2 Eylül Campus of our university, is carried out by our Faculty of Aviation and Space Sciences.
+                                     There are international flights to Hasan Polatkan Airport operated by different airline companies on various days of the week.</p>
+                                    <p>With the vision of "Being a pioneer of change and transformation by creating value", we contribute to the academic, personal, cultural and social development of students
+                                         at the highest level and support them to enter their business life as qualified individuals who are proud and honored to be a member of Eskişehir Technical University, 
+                                        and who can take a place in global organizations and environments. is to be.</p> 
+                                
+                               </div>
+                               <label for="check">Show More</label>
+                           </div>
+
+                           
+                           
+                      <h3>Numbers of Students and Staff</h3>
+                      <p>There are 723 academic staff in total. 
+                          The total number of academic, administrative and worker personnel in our university is 1539.The total number of students in faculties and colleges in our school is 9860.</p>
+                          <br>
+                    
+                      <h3>Administrative Units</h3>
+                      <ul>
+                          <li>Department of Administrative and Financial Affairs</li>
+                          <li>IT Department</li>
+                          <li>Legal Consultancy</li>
+                          <li>Library and Documentation Department</li>
+                          <li>Student Affairs Department</li>
+                          <li>Personnel Department</li>
+                          <li>Department of Health, Culture and Sports</li>
+                          <li>Strategy Development Department</li>
+                          <li>Construction and Technical Department</li>
+                          <li>Revolving Fund Management Directorate</li>
+                          <li>Workplace Health and Safety Unit</li>
+                      </ul>
+                  </div>
+              </article>
+
+
+
+
+        </nav>
+
+        <footer>
+            <p>Author: İrem Akanoğlu<br>iremakanoglu@eskisehir.edu.tr <br>
+                &copy; 2022 All rights reserved. Eskişehir Technical University </p>
+        </footer>
+
+    </body>
+</html>
